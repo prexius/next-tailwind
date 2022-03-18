@@ -3,6 +3,7 @@ module.exports = {
         "./pages/**/*.{js,ts,jsx,tsx}",
         "./components/**/*.{js,ts,jsx,tsx}"
     ],
+    darkMode: 'class',
     theme: {
         screens: {
             sm: "576px",
@@ -25,6 +26,9 @@ module.exports = {
                 "warning": "#FFC107",
                 "danger": "#DC3545",
             },
+            backgroundImage: {
+                "hero": "url('/images/1.png')",
+              }
         },
     },
     plugins: [],
