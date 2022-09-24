@@ -155,6 +155,15 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-[30px] gap-y-[50px] mb-[52px]">
+                    <div className="rounded-2xl p-[25px] pb-[35px] border border-gray-200">1</div>
+                    <div className="rounded-2xl p-[25px] pb-[35px] border border-gray-200">2</div>
+                    <div className="rounded-2xl p-[25px] pb-[35px] border border-gray-200">3</div>
+                    <div className="rounded-2xl p-[25px] pb-[35px] border border-gray-200">4</div>
+                </div>
+
+                
             </div>
         </>
     )
